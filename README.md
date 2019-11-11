@@ -5,7 +5,7 @@ I have created a very basic frontend for it in Vue JS.
 
 ## Installation
 
-### Backend Service
+### Backend
 
 1. Install composer https://getcomposer.org/download/
 
