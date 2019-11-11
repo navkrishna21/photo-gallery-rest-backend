@@ -1,5 +1,35 @@
-# photo-gallery-rest-backend
+# Photo-Gallery REST API Backend
+Backend for photo gallery application to create and store photo albums.
 
+I have created a very basic frontend for it in Vue JS. 
+
+## Installation
+
+### Backend Service
+
+1. Install composer https://getcomposer.org/download/
+
+2. Pull Laravel/php project from git provider.
+
+3. Create a database locally of extension .db
+
+4. Rename .env.example file to .env and fill the database information.
+DB_CONNECTION=sqlite
+DB_DATABASE=[absolute path of the database]
+
+5. Run ``` composer install ```
+
+6. Run ```php artisan migrate``` to run migrations
+
+7. Run ```php artisan key:generate``` to set application key
+
+8. Run ```php artisan serve``` to run the application
+
+### Frontend
+
+1. Run ```npm install``` for npm dependencies
+
+2. Run ```npm run dev``` to compile JS files
 
 ## REST Endpoints
 The following REST endpoints are available upon deployment of the photo gallery app:
