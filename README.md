@@ -1,7 +1,7 @@
 # Photo-Gallery REST API Backend
 Backend for photo gallery application to create and store photo albums.
 
-I have created a very basic frontend for it in Vue JS. 
+I have created a very basic frontend in Vue JS to test the APIs. 
 
 ## Installation
 
