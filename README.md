@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Photo-Gallery
-
-### Prerequisites
-=======
 # Photo-Gallery REST API Backend
 Backend for photo gallery application to create and store photo albums.
 
@@ -11,7 +6,6 @@ I have created a very basic frontend in Vue JS to test the APIs.
 ## Installation
 
 ### Backend
->>>>>>> 14974634ef7b9396f9e1ee68bc1c5de54fd1da98
 
 1. Install composer https://getcomposer.org/download/
 
@@ -27,15 +21,6 @@ DB_DATABASE=[absolute path of the database]
 
 6. Run ```php artisan migrate``` to run migrations
 
-<<<<<<< HEAD
-7. Run ```npm install``` for npm dependencies
-
-8. Run ```npm run dev``` to compile JS files
-
-9. Run ```php artisan key:generate``` to set application key
-
-10. Run ```php artisan serve``` to run the application
-=======
 7. Run ```php artisan key:generate``` to set application key
 
 8. Run ```php artisan serve``` to run the application
@@ -79,4 +64,3 @@ The following REST endpoints are available upon deployment of the photo gallery 
 | `DELETE` | `http://localhost:8000/photos/{id}` | Deletes an existing photo that corresponds to the supplied photo ID | <ul><li>` No Content` if photo succesfully deleted</li><li>`404 Not Found` if photo does not exist</li><li>`403` if not permitted</li></ul> |
 
 
->>>>>>> 14974634ef7b9396f9e1ee68bc1c5de54fd1da98
